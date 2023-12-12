@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM += "file://audio_route.c;beginline=2;endline=5;md5=042194586ded
 
 FILESPATH =+ "${WORKSPACE}/:"
 SRC_URI = "file://audio/opensource/audio-utils/audio-route/"
-S = "${WORKDIR}/audio/opensource/audio-utils/audio-route/"
+S = "${WORKDIR}/audio/opensource/audio-utils/audio-route"
 DEPENDS = "glib-2.0 tinyalsa expat"
 SOLIBS = ".so"
 FILES_SOLIBSDEV = ""
