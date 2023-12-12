@@ -1,7 +1,6 @@
 SUMMARY = "Audioroute for AROSP"
-LICENSE = "BSD-3-Clause-Clear"
-LIC_FILES_CHKSUM += "file://audio_route.c;beginline=2;endline=5;md5=042194586ded2562f74a6fb72983780f \
-                     file://include/audio_route/audio_route.h;beginline=2;endline=4;md5=13471f57bede6a567f583ee39a0ba2a6"
+LICENSE = "Apache-2.0 & BSD-3-Clause-Clear"
+LIC_FILES_CHKSUM += "file://audio_route.c;beginline=2;endline=20;md5=e35892022a2de7b18b106d01dafe2f0c"
 
 FILESPATH =+ "${WORKSPACE}/:"
 SRC_URI = "file://audio/opensource/audio-utils/audio-route/"
